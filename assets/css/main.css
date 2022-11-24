@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+
+:root {
+    --white: #fff;
+    --dark: #433;
+    --light: #cbb;
+    --gray: #887;
+    --red: #e13;
+    --blue: #13e;
+}
+
+* {
+    text-align: center;
+    font-family: 'Yeon Sung', sans-serif;
+}
+
+body {
+    background: var(--white);
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--dark);
+}
+
+#echoname {
+    font-size: 4rem;
+}
+
+#echoname > .romaja {
+    font-size: 2rem;
+}
+
+.romaja {
+    font-size: 0.8rem;
+    color: var(--gray);
+}
+
+#echobox {
+    box-sizing: border-box;
+    padding: 0.5rem 2rem;
+}
+
+input, label, button {
+    font-size: 1.2rem;
+}
+
+#family {
+    width: 2rem;
+    height: 2rem;
+    border: 0.05rem solid var(--dark);
+}
+
+button {
+    box-sizing: border-box;
+    padding: 1rem 3rem;
+    border-radius: 0.5rem;
+    transition: 0.5s;
+}
+
+button:hover {
+    filter: brightness(1.2);
+}
+
+.primary-btn {
+    border: 0.05rem solid transparent;
+    background: var(--dark);
+    color: var(--white);
+}
+
+.secondary-btn {
+    border: 0.05rem solid var(--dark);
+    background: var(--light);
+    color: var(--dark);
+}
+
+.red {
+    color: var(--red);
+}
+
+.blue {
+    color: var(--blue);
+}
