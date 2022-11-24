@@ -9,8 +9,8 @@ $title = 'nameko &ndash; Korean Name Generator';
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title><?php echo $title; ?></title>
         <link rel="stylesheet" type="text/css" href="./assets/css/main.css">
+        <script type="text/javascript" src="./assets/js/nameko.js"></script>
     </head>
-
     <body>
         <h1>name<span class="red">k</span><span class="blue">o</span></h1>
         <h2 id="heading"></h2>
@@ -27,7 +27,5 @@ $title = 'nameko &ndash; Korean Name Generator';
         <footer>
             <p><?php echo $title; ?> &copy;&nbsp;2022 Karhut Group. All Rights Reserved.</p>
         </footer>
-    
-    <script type="text/javascript" src="./assets/js/nameko.js"></script>
     </body>
 </html>
