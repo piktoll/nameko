@@ -12,6 +12,7 @@
 * {
     text-align: center;
     font-family: 'Yeon Sung', sans-serif;
+    font-weight: 400;
 }
 
 body {
@@ -84,4 +85,11 @@ button:hover {
 
 .blue {
     color: var(--blue);
+}
+
+.familyname-selector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem 0rem;
 }
