@@ -15,6 +15,10 @@
     font-weight: 400;
 }
 
+#logo {
+    user-select: none;
+}
+
 body {
     background: var(--white);
 }
@@ -32,7 +36,7 @@ a {
     font-size: 4rem;
 }
 
-#echoname > .romaja {
+#echoname>.romaja {
     font-size: 2rem;
 }
 
@@ -46,7 +50,9 @@ a {
     padding: 0.5rem 2rem;
 }
 
-input, label, button {
+input,
+label,
+button {
     font-size: 1.2rem;
 }
 
@@ -68,15 +74,15 @@ button:hover {
 }
 
 .primary-btn {
-    border: 0.05rem solid transparent;
+    border: 0.05rem solid var(--dark);
     background: var(--dark);
     color: var(--white);
 }
 
 .secondary-btn {
     border: 0.05rem solid var(--dark);
-    background: var(--light);
     color: var(--dark);
+    background: var(--white);
 }
 
 .red {
