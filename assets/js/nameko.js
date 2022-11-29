@@ -16,14 +16,14 @@ const romanized = [
 
 window.onload = function() {
     let webUi = {
-        generateBtn: document.getElementById("generate-btn"),
-        massGenerateBtn: document.getElementById("mass-generate-btn"),
-        clearListBtn: document.getElementById("clear-list-btn"),
-        listEl: document.getElementById("list-el"),
-        nameEl: document.getElementById("name-el"),
-        romajaEl: document.getElementById("romaja-el"),
-        familyEl: document.getElementById("family-el"),
-        headingEl: document.getElementById("heading-el"),
+        generateBtn: document.querySelector("#generate-btn"),
+        massGenerateBtn: document.querySelector("#mass-generate-btn"),
+        clearListBtn: document.querySelector("#clear-list-btn"),
+        listEl: document.querySelector("#list-el"),
+        nameEl: document.querySelector("#name-el"),
+        romajaEl: document.querySelector("#romaja-el"),
+        familyEl: document.querySelector("#family-el"),
+        headingEl: document.querySelector("#heading-el"),
         formatter: new Intl.NumberFormat("en-US", {
             maximumFractionDigits: 0
         }),
