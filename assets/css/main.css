@@ -13,6 +13,7 @@
     text-align: center;
     font-family: 'Yeon Sung', sans-serif;
     font-weight: 400;
+    color: var(--dark);
 }
 
 #logo {
@@ -74,14 +75,20 @@ button:hover {
 }
 
 .primary-btn {
-    border: 0.05rem solid var(--dark);
-    background: var(--dark);
+    border: 0.05rem solid var(--red);
+    background: var(--red);
     color: var(--white);
 }
 
 .secondary-btn {
-    border: 0.05rem solid var(--dark);
-    color: var(--dark);
+    border: 0.05rem solid var(--blue);
+    background: var(--blue);
+    color: var(--white);
+}
+
+.tertiary-btn {
+    border: 0.05rem solid var(--blue);
+    color: var(--blue);
     background: var(--white);
 }
 
