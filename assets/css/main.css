@@ -32,11 +32,11 @@ a {
     color: var(--dark);
 }
 
-#echoname {
+#name-el {
     font-size: 4rem;
 }
 
-#echoname>.romaja {
+#name-el>.romaja {
     font-size: 2rem;
 }
 
@@ -56,7 +56,7 @@ button {
     font-size: 1.2rem;
 }
 
-#family {
+#family-el {
     width: 2rem;
     height: 2rem;
     border: 0.05rem solid var(--dark);
