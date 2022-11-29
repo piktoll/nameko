@@ -27,7 +27,6 @@ $app = new Application('nameko', 'Korean Name Generator');
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><?php echo $app->printTitle(); ?></title>
     <link rel="stylesheet" type="text/css" href="./assets/css/main.css">
-    
     <script type="text/javascript" src="./assets/js/nameko.js"></script>
 </head>
 
@@ -45,8 +44,8 @@ $app = new Application('nameko', 'Korean Name Generator');
             <div id="romaja-el" class="romaja"></div>
         </div>
         <div id="list-el"></div>
-        <button id="mass-generate-btn" class="primary-btn">Mass Generate</button>
-        <button id="clear-list-btn" class="secondary-btn">Clear List</button>
+        <button id="mass-generate-btn" class="secondary-btn">Mass Generate</button>
+        <button id="clear-list-btn" class="tertiary-btn">Clear List</button>
     </main>
     <footer>
         <p><?php echo $app->printTitle(); ?></p>
