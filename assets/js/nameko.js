@@ -67,8 +67,6 @@ window.onload = function() {
             }
         }
     };
-
-    webUi.headingEl.innerHTML = "Helo";
     
     let combinations = webUi.formatter.format(korean[0].length * korean[1].length * korean[2].length);
     webUi.headingEl.innerHTML = `Korean Name Generator with ${combinations} possible name combinations`;
